@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "github.com/modelcontextprotocol/servers/tree/main/src/filesystem": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--mount", "type=bind,src=c:/Users/chint/Videos/instergramCLONE/instagram_clone,dst=/projects/instagram_clone",
+        "mcp/filesystem",
+        "/projects/instagram_clone"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
